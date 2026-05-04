@@ -47,7 +47,7 @@ Conversational AI Agent powered by Claude Sonnet with real tool use (CSV reader,
  
 ### AWS Deploy — EC2 + Docker
  
-**Docs:** [`/project-5-aws-deploy`](./project-5-aws-deploy/README.md)
+**Docs:** [github.com/ElioUcan/AWS-deployment-on-EC2](https://github.com/ElioUcan/AWS-deployment-on-EC2.git)
  
 Deployed the AI Agent to a real cloud environment on AWS EC2. Configured IAM roles, security groups, key pairs, and S3. Live public URL served via Docker Compose on Amazon Linux 2023.
  
