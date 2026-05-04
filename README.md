@@ -59,7 +59,7 @@ Deployed the AI Agent to a real cloud environment on AWS EC2. Configured IAM rol
  
 ### Infrastructure as Code — Terraform
  
-> 🔄 In progress
+**Docs:** [github.com/ElioUcan/project-6-terraform](https://github.com/ElioUcan/project-6-terraform.git)
  
 Provisioning AWS infrastructure (EC2 + S3) with Terraform. Variables, outputs, remote state and reusable modules.
  
