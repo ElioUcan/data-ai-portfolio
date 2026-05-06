@@ -13,8 +13,8 @@
 | 2 | [AI Agent — Anthropic API + FastAPI](#project-2) | Python, Anthropic SDK, FastAPI, Docker | ✅ Complete |
 | 5 | [AWS Deploy — EC2 + Docker](#project-5) | AWS EC2, Docker Compose, IAM, S3 | ✅ Complete |
 | 6 | [Infrastructure as Code — Terraform](#project-6) | Terraform, AWS, IaC | ✅ Complete |
-| 4 | [ML Pipeline — Train + Version + Serve](#project-4) | scikit-learn, MLflow, FastAPI, GitHub Actions | 🔄 In progress |
-| 3 | [Workflow Automation — n8n](#project-3) | n8n, Webhooks, REST APIs | 🔜 Pending |
+| 4 | [ML Pipeline — Train + Version + Serve](#project-4) | scikit-learn, MLflow, FastAPI, GitHub Actions | ✅ Complete |
+| 3 | [Workflow Automation — n8n](#project-3) | n8n, Webhooks, REST APIs | 🔄 In progress |
 | 7 | [Metrics Dashboard — PostgreSQL + Grafana](#project-7) | PostgreSQL, FastAPI, Grafana, Docker | 🔜 Pending |
  
 ---
