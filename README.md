@@ -70,8 +70,8 @@ Provisioning AWS infrastructure (EC2 + S3) with Terraform. Variables, outputs, r
 ## Project 4
  
 ### ML Pipeline — Train + Version + Serve
- 
-> 🔜 Coming soon
+
+ **Docs:** [github.com/ElioUcan/project-4-ml-pipeline](https://github.com/ElioUcan/project-4-ml-pipeline.git)
  
 End-to-end ML pipeline: train with scikit-learn, version with MLflow, serve with FastAPI, retrain automatically with GitHub Actions.
  
@@ -116,10 +116,10 @@ Real-time metrics dashboard with advanced SQL (CTEs, window functions), FastAPI 
 | Anthropic SDK / LLMs | ✅ Solid |
 | AWS (EC2, IAM, S3) | ✅ Solid |
 | Git | ✅ Solid |
-| Terraform | 🔄 In progress |
-| MLflow | 🔜 Pending |
+| Terraform | ✅ Solid |
+| MLflow | ✅ Solid |
 | Grafana | 🔜 Pending |
-| GitHub Actions | 🔜 Pending |
+| GitHub Actions | ✅ Solid |
 | n8n | 🔜 Pending |
  
 ---
