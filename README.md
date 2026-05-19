@@ -15,7 +15,7 @@
 | 6 | [Infrastructure as Code — Terraform](#project-6) | Terraform, AWS, IaC | ✅ Complete |
 | 4 | [ML Pipeline — Train + Version + Serve](#project-4) | scikit-learn, MLflow, FastAPI, GitHub Actions | ✅ Complete |
 | 3 | [Workflow Automation — n8n](#project-3) | n8n, Webhooks, REST APIs |  ✅ Complete |
-| 7 | [Metrics Dashboard — PostgreSQL + Grafana](#project-7) | PostgreSQL, FastAPI, Grafana, Docker | 🔄 In progress |
+| 7 | [Metrics Dashboard — PostgreSQL + Grafana](#project-7) | PostgreSQL, FastAPI, Grafana, Docker | ✅ Complete |
  
 ---
  
@@ -94,8 +94,8 @@ Visual workflow automation with n8n: webhook triggers, multi-service integration
 ## Project 7
  
 ### Metrics Dashboard — PostgreSQL + Grafana
- 
-> 🔜 Coming soon
+
+**Docs** [github.com/ElioUcan/project-7-pipeline](https://github.com/ElioUcan/project-7-pipeline.git)
  
 Real-time metrics dashboard with advanced SQL (CTEs, window functions), FastAPI endpoints, Grafana visualization and JWT authentication.
  
@@ -118,7 +118,7 @@ Real-time metrics dashboard with advanced SQL (CTEs, window functions), FastAPI 
 | Git | ✅ Solid |
 | Terraform | ✅ Solid |
 | MLflow | ✅ Solid |
-| Grafana | 🔜 Pending |
+| Grafana | ✅ Solid |
 | GitHub Actions | ✅ Solid |
 | n8n | ✅ Solid |
  
