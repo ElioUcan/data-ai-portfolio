@@ -1,127 +1,48 @@
 # Data / AI / MLOps Engineering Portfolio
- 
-> Progressive portfolio built to land a remote job as a Data/AI/MLOps Engineer.  
-> Stack: Python · Airflow · Docker · PostgreSQL · FastAPI · Anthropic API · AWS · Terraform
- 
----
- 
-## Projects
- 
-| # | Project | Stack | Status |
-|---|---------|-------|--------|
-| 1 | [ETL Pipeline — Airflow + Docker + PostgreSQL](#project-1) | Airflow, Docker, Python, PostgreSQL | ✅ Complete |
-| 2 | [AI Agent — Anthropic API + FastAPI](#project-2) | Python, Anthropic SDK, FastAPI, Docker | ✅ Complete |
-| 5 | [AWS Deploy — EC2 + Docker](#project-5) | AWS EC2, Docker Compose, IAM, S3 | ✅ Complete |
-| 6 | [Infrastructure as Code — Terraform](#project-6) | Terraform, AWS, IaC | ✅ Complete |
-| 4 | [ML Pipeline — Train + Version + Serve](#project-4) | scikit-learn, MLflow, FastAPI, GitHub Actions | ✅ Complete |
-| 3 | [Workflow Automation — n8n](#project-3) | n8n, Webhooks, REST APIs |  ✅ Complete |
-| 7 | [Metrics Dashboard — PostgreSQL + Grafana](#project-7) | PostgreSQL, FastAPI, Grafana, Docker | ✅ Complete |
- 
----
- 
-## Project 1
- 
-### ETL Pipeline — Airflow + Docker + PostgreSQL
- 
-**Repo:** [github.com/ElioUcan/airflow-etl](https://github.com/ElioUcan/airflow-etl)
- 
-Automated ETL pipeline that extracts cryptocurrency data from the CoinGecko API, transforms it with pandas, and loads it into PostgreSQL — fully orchestrated with Apache Airflow and containerized with Docker Compose.
- 
-**Skills:** Airflow DAGs · Docker Compose · Python · pandas · PostgreSQL · scheduling · error handling · retries
- 
----
- 
-## Project 2
- 
-### AI Agent — Anthropic API + FastAPI
- 
-**Repo:** [github.com/ElioUcan/ai-agent](https://github.com/ElioUcan/ai-agent)
- 
-Conversational AI Agent powered by Claude Sonnet with real tool use (CSV reader, PostgreSQL queries), conversation memory, and exposed as a REST API with FastAPI. Fully Dockerized.
- 
-**Skills:** LLMs · prompt engineering · tool use · FastAPI · Docker · PostgreSQL · Anthropic SDK
- 
----
- 
-## Project 5
- 
-### AWS Deploy — EC2 + Docker
- 
-**Docs:** [github.com/ElioUcan/AWS-deployment-on-EC2](https://github.com/ElioUcan/AWS-deployment-on-EC2.git)
- 
-Deployed the AI Agent to a real cloud environment on AWS EC2. Configured IAM roles, security groups, key pairs, and S3. Live public URL served via Docker Compose on Amazon Linux 2023.
- 
-**Skills:** AWS EC2 · IAM · S3 · Docker in production · security groups · cloud deployment
- 
----
- 
-## Project 6
- 
-### Infrastructure as Code — Terraform
- 
-**Docs:** [github.com/ElioUcan/project-6-terraform](https://github.com/ElioUcan/project-6-terraform.git)
- 
-Provisioning AWS infrastructure (EC2 + S3) with Terraform. Variables, outputs, remote state and reusable modules.
- 
-**Skills:** Terraform · AWS CLI · IaC · reproducible infrastructure
- 
----
- 
-## Project 4
- 
-### ML Pipeline — Train + Version + Serve
 
- **Docs:** [github.com/ElioUcan/project-4-ml-pipeline](https://github.com/ElioUcan/project-4-ml-pipeline.git)
- 
-End-to-end ML pipeline: train with scikit-learn, version with MLflow, serve with FastAPI, retrain automatically with GitHub Actions.
- 
-**Skills:** MLOps · scikit-learn · MLflow · FastAPI · GitHub Actions · CI/CD
- 
----
- 
-## Project 3
- 
-### Workflow Automation — n8n
- 
-**Docs** [github.com/ElioUcan/project-3-n8n-workflow](https://github.com/ElioUcan/project-3-n8n-workflow.git)
- 
-Visual workflow automation with n8n: webhook triggers, multi-service integrations, conditional logic and error handling.
- 
-**Skills:** n8n · webhooks · REST APIs · business logic automation
- 
----
- 
-## Project 7
- 
-### Metrics Dashboard — PostgreSQL + Grafana
+## 🛠️ Technologies
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Docs** [github.com/ElioUcan/project-7-pipeline](https://github.com/ElioUcan/project-7-pipeline.git)
- 
-Real-time metrics dashboard with advanced SQL (CTEs, window functions), FastAPI endpoints, Grafana visualization and JWT authentication.
- 
-**Skills:** Advanced SQL · FastAPI · Grafana · Docker Compose · JWT
- 
----
- 
-## Skills Tracker
- 
-| Skill | Level |
-|-------|-------|
-| Python | ✅ Solid |
-| pandas | ✅ Solid |
-| PostgreSQL | ✅ Solid |
-| Docker + Docker Compose | ✅ Solid |
-| FastAPI | ✅ Solid |
-| Apache Airflow | ✅ Solid |
-| Anthropic SDK / LLMs | ✅ Solid |
-| AWS (EC2, IAM, S3) | ✅ Solid |
-| Git | ✅ Solid |
-| Terraform | ✅ Solid |
-| MLflow | ✅ Solid |
-| Grafana | ✅ Solid |
-| GitHub Actions | ✅ Solid |
-| n8n | ✅ Solid |
- 
----
- 
-*Updated progressively as each project is completed.*
+## ✨ Features
+- 7 end-to-end projects covering the full Data/MLOps engineering stack
+- ETL pipeline with Apache Airflow, Docker, and PostgreSQL
+- Conversational AI agent using the Anthropic API with real tool use
+- End-to-end ML pipeline: train, version with MLflow, serve with FastAPI, retrain via CI/CD
+- AWS cloud deployment (EC2) and infrastructure as code (Terraform)
+- Workflow automation with n8n (webhooks, conditional logic, Telegram alerts)
+- Real-time metrics dashboard with PostgreSQL, FastAPI, and Grafana
+
+## 🎯 Uses
+Progressive portfolio built to demonstrate readiness for a remote Data/AI/MLOps engineering role. Each project adds one new layer to the stack, building from foundational ETL up to cloud infrastructure and AI agents. Intended for recruiters, hiring managers, and engineers evaluating full-stack data engineering capability.
+
+## 🔧 Process
+Each project was scoped to introduce exactly one new concept while reusing the previous project's stack. Project 1 set the foundation (Airflow + Docker + PostgreSQL); subsequent projects added AI agents, ML versioning, cloud deployment, IaC, workflow automation, and observability — in that order.
+
+## 💡 Learnings
+- End-to-end MLOps: training, experiment tracking, serving, and automated retraining in a single pipeline
+- Cloud infrastructure is reproducible only when written as code — Terraform made destroy + recreate trivial
+- LLM tool use is the key abstraction that makes agents practical: the model routes to the right data source without hardcoded logic
+
+## ▶️ Running the project
+Each project lives in its own repository with its own setup instructions. See the project links in the table below.
+
+| # | Project | Repo |
+|---|---------|------|
+| 1 | ETL Pipeline — Airflow + Docker + PostgreSQL | [airflow-etl](https://github.com/ElioUcan/airflow-etl) |
+| 2 | AI Agent — Anthropic API + FastAPI | [ai-agent](https://github.com/ElioUcan/ai-agent) |
+| 3 | Workflow Automation — n8n | [project-3-n8n-workflow](https://github.com/ElioUcan/project-3-n8n-workflow) |
+| 4 | ML Pipeline — Train + Version + Serve | [project-4-ml-pipeline](https://github.com/ElioUcan/project-4-ml-pipeline) |
+| 5 | AWS Deployment — EC2 + Docker | [AWS-deployment-on-EC2](https://github.com/ElioUcan/AWS-deployment-on-EC2) |
+| 6 | Infrastructure as Code — Terraform | [terraform-aws-infra](https://github.com/ElioUcan/terraform-aws-infra) |
+| 7 | Metrics Dashboard — PostgreSQL + Grafana | [project-7-pipeline](https://github.com/ElioUcan/project-7-pipeline) |
