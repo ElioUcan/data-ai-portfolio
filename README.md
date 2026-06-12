@@ -45,4 +45,4 @@ Each project lives in its own repository with its own setup instructions. See th
 | 4 | ML Pipeline — Train + Version + Serve | [ml-pipeline-classifier](https://github.com/ElioUcan/ml-pipeline-classifier) |
 | 5 | AWS Deployment — EC2 + Docker | [AWS-deployment-on-EC2](https://github.com/ElioUcan/AWS-deployment-on-EC2) |
 | 6 | Infrastructure as Code — Terraform | [terraform-aws-infra](https://github.com/ElioUcan/terraform-aws-infra) |
-| 7 | Metrics Dashboard — PostgreSQL + Grafana | [project-7-pipeline](https://github.com/ElioUcan/project-7-pipeline) |
+| 7 | Metrics Dashboard — PostgreSQL + Grafana | [MLpipeline-dashboard](https://github.com/ElioUcan/MLPipeline-dashboard) |
