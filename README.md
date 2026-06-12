@@ -42,7 +42,7 @@ Each project lives in its own repository with its own setup instructions. See th
 | 1 | ETL Pipeline — Airflow + Docker + PostgreSQL | [airflow-etl](https://github.com/ElioUcan/airflow-etl) |
 | 2 | AI Agent — Anthropic API + FastAPI | [ai-agent](https://github.com/ElioUcan/ai-agent) |
 | 3 | Workflow Automation — n8n | [n8n-workflow](https://github.com/ElioUcan/n8n-workflow) |
-| 4 | ML Pipeline — Train + Version + Serve | [project-4-ml-pipeline](https://github.com/ElioUcan/project-4-ml-pipeline) |
+| 4 | ML Pipeline — Train + Version + Serve | [ml-pipeline-classifier](https://github.com/ElioUcan/ml-pipeline-classifier) |
 | 5 | AWS Deployment — EC2 + Docker | [AWS-deployment-on-EC2](https://github.com/ElioUcan/AWS-deployment-on-EC2) |
 | 6 | Infrastructure as Code — Terraform | [terraform-aws-infra](https://github.com/ElioUcan/terraform-aws-infra) |
 | 7 | Metrics Dashboard — PostgreSQL + Grafana | [project-7-pipeline](https://github.com/ElioUcan/project-7-pipeline) |
